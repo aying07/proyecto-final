@@ -1,0 +1,48 @@
+<DOCTYPE html>
+
+<head lang="es">
+    <meta charset="utf-8">
+    <title>Create account</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <script src="index.js"></script>
+    <div class="form">
+        <form name="myForm" action="" method="post" onsubmit="return validateForm()">
+            <div id="title">
+                <h1>Create Account</h1>
+            </div>
+            <div class="inputField">
+                <label for="name">Nombre<input id="name" name="name" type="text" /><img class="icon" id="iconName"
+                        src="images/error-icon.svg" />
+                        <p id="nameMsg" class="errorMsg">msg</p>
+                    </label>
+                
+            </div>
+            <div class="inputField">
+                <label for="email">Email<input id="email" name="email" type="email" /><img class="icon" id="iconEmail"
+                        src="images/error-icon.svg" />
+                    <p id="emailMsg" class="errorMsg">msg</p>
+                </label>
+            </div>
+            <div class="inputField">
+                <label for="password">Clave<input id="password" name="password" type="password" /><img class="icon" id="iconPass"
+                        src="images/error-icon.svg" />
+                            <p id="passMsg" class="errorMsg">msg</p>
+                        </label>
+            </div>
+            <div class="inputField">
+                <label for="pass_confirmation">Confirme su clave<input id="pass_confirmation" name="pass_confirmation"
+                        type="password" /><img class="icon" id="iconPassConf" src="images/error-icon.svg" />
+                            <p id="passConfMsg" class="errorMsg">msg</p>
+                        </label>
+            </div>
+            <input type="submit" value="ENVIAR">
+        </form>
+    </div>
+
+</body>f
+
+</html>
